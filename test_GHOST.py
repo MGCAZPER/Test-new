@@ -82,5 +82,9 @@ def Ghost_protocol(command):
             speak("I'm functioning well, thank you for asking.")
         elif "what can you do" in command.lower():
             speak("I can help you browse websites, answer questions, and assist with various tasks.")
+        elif "brows history for me ":
+            speak("sure sir Browsing history")
+                
         else:
             speak("I didn't understand that command. Could you please rephrase it?")
+            
